@@ -6,7 +6,7 @@ from TikTokApi import TikTokApi
 verify_fp = "verifyf"
 api = TikTokApi(custom_verify_fp=verify_fp)
 
-tag = api.hashtag(name="riccione")
+tag = api.hashtag(name="fun")
 print(tag.info())
 
 for video in tag.videos():
